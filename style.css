@@ -1,0 +1,103 @@
+/* CSS properties from the session */
+
+body {
+  font-family: "Arial", sans-serif; /* font-family */
+  color: #333; /* color */
+  line-height: 1.5; /* line-height */
+  background-color: #f4f4f4; /* background-color */
+  font-size: 16px; /* font-size */
+  text-align: justify; /* text-align */
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold; /* font-weight */
+}
+
+a {
+  text-decoration: none; /* text-decoration */
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Additional 25 CSS properties */
+
+header {
+  border-bottom: 2px solid #ccc; /* border-bottom */
+  padding: 20px 0; /* padding */
+  background-color: #fff;
+}
+
+nav ul {
+  list-style-type: none; /* list-style-type */
+  padding: 0;
+  display: flex; /* display */
+  justify-content: center; /* justify-content */
+  gap: 20px; /* gap */
+}
+
+nav li {
+  margin: 0; /* margin */
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px; /* max-width */
+  margin: 20px auto; /* auto margin */
+}
+
+article {
+  border-radius: 8px; /* border-radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* box-shadow */
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  overflow: hidden; /* overflow */
+}
+
+figure {
+  float: right; /* float */
+  width: 40%; /* width */
+  margin-left: 20px; /* margin-left */
+}
+
+figcaption {
+  font-style: italic; /* font-style */
+}
+
+footer {
+  clear: both; /* clear */
+  padding: 20px 0;
+  text-align: center; /* another use of text-align */
+  background-color: #333;
+  color: #fff;
+}
+
+img {
+  width: 100%; /* width */
+  height: auto; /* height */
+  object-fit: cover; /* object-fit */
+  border: 1px solid #ccc; /* border */
+}
+
+article footer,
+article header {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: -20px -20px 20px -20px; /* shorthand margin */
+  border-top: 2px solid #eee; /* border-top */
+}
+
+article footer {
+  border-top: none;
+  border-bottom: 2px solid #eee; /* border-bottom */
+  margin: 20px -20px -20px -20px; /* shorthand margin */
+}
+
+h2 {
+  margin-top: 0; /* margin-top */
+}
