@@ -90,6 +90,7 @@ article header {
   padding: 10px;
   margin: -20px -20px 20px -20px; /* shorthand margin */
   border-top: 2px solid #eee; /* border-top */
+  color: #000000;
 }
 
 article footer {
